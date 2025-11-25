@@ -25,7 +25,7 @@ int lastappear(int a[],int n,int x){
 void appear(int a[],int n,int x){
     int pos1=firstappear(a,n,x);
     int pos2=lastappear(a,n,x);
-    if(pos1>0){
+    if(pos1>=0){
         printf("First appear is %d, Last appear is %d",pos1,pos2);
     }
     else{
